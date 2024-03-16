@@ -1,0 +1,23 @@
+.titleWrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  height: 400px;
+  color: var(--white);
+  background-image: url("./bg.jpg");
+  background-color: #2b2629;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  & .content {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+
+    & .portoflio {
+      font-size: 3rem;
+    }
+  }
+}
