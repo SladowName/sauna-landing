@@ -1,10 +1,6 @@
 import './title.scss'
 
-interface TitleProps {
-
-}
-
-export function Title(props: TitleProps) {
+export function Title() {
   return (
     <div className="titleWrapper">
       <div className="content">

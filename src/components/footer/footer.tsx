@@ -1,10 +1,6 @@
 import './footer.scss'
 
-interface FooterProps {
-
-}
-
-export function Footer(props: FooterProps) {
+export function Footer() {
   return (
     <footer>
      <div>
@@ -12,4 +8,4 @@ export function Footer(props: FooterProps) {
      </div>
     </footer>
   );
-};
+}
